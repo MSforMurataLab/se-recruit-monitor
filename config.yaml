@@ -1,0 +1,65 @@
+# SE職 二次応募/追加募集 監視設定
+
+notify_email: m.shinoharaforrecruit@gmail.com
+
+# 監視間隔（秒）- ローカル実行時のデフォルト
+check_interval_seconds: 3600
+
+# 二次応募・追加募集を示すキーワード
+secondary_keywords:
+  - 二次応募
+  - 追加募集
+  - 再募集
+  - 追加入手
+  - エントリー再開
+  - 選考再開
+  - 追加エントリー
+  - 追加選考
+  - 欠員募集
+  - 増員募集
+
+# SE職を示すキーワード（単独の "SE" は SEMINAR 等と誤判定するため除外）
+se_keywords:
+  - SE職
+  - システムエンジニア
+  - ソリューションエンジニア
+  - エリア職システムエンジニア
+  - ITエンジニア
+  - 情報システム
+  - 開発職
+
+companies:
+  - id: nttdata
+    name: NTTデータ
+    urls:
+      - https://nttdata-recruit.com/
+      - https://nttdata-recruit.com/recruit/requirements.html
+
+  - id: nri
+    name: 野村総合研究所
+    urls:
+      - https://working.nri.co.jp/recruit/2027/
+      - https://working.nri.co.jp/mypage2027/
+      - https://working.nri.co.jp/recruit/2027/contents/recruiting/application_area.html
+
+  - id: hitachi
+    name: 日立製作所
+    urls:
+      - https://www.hitachi.com/ja-jp/recruit/
+      - https://www.hitachi.com/ja-jp/recruit/opportunities/newgraduate/
+
+  - id: fujitsu
+    name: 富士通
+    urls:
+      - https://fujitsu.recruiting.jp.fujitsu.com/
+      - https://fujitsu.recruiting.jp.fujitsu.com/recruit/
+
+  - id: toyota
+    name: トヨタ自動車
+    urls:
+      - https://recruit.toyota/
+
+  - id: sony
+    name: ソニーグループ
+    urls:
+      - https://www.recruit.sony.co.jp/2027/
