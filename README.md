@@ -97,10 +97,13 @@ PCを常時起動している場合、1時間ごとの自動実行:
 
 [Settings → Secrets and variables → Actions](https://github.com/MSforMurataLab/se-recruit-monitor/settings/secrets/actions) で以下を登録:
 
-| Secret | 内容 |
-|--------|------|
-| `SMTP_USER` | 送信元 Gmail アドレス |
-| `SMTP_PASSWORD` | Gmail アプリパスワード |
+| Secret | 入力する値（例） |
+|--------|----------------|
+| `SMTP_USER` | `yourname@gmail.com`（実際のGmailアドレス） |
+| `SMTP_PASSWORD` | `abcd efgh ijkl mnop`（アプリパスワード16文字） |
+| `NOTIFY_EMAIL_TO` | `m.shinoharaforrecruit@gmail.com`（通知先メール） |
+
+> **注意:** 「送信元 Gmail アドレス」のような説明文をそのまま入力しないでください。実際のアドレス・パスワードを入力します。
 
 Secrets 設定後、Actions タブから手動実行して動作確認できます。
 

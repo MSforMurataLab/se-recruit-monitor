@@ -31,5 +31,5 @@ jobs:
           SMTP_PORT: 587
           SMTP_USER: ${{ secrets.SMTP_USER }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
-          NOTIFY_EMAIL_TO: m.shinoharaforrecruit@gmail.com
+          NOTIFY_EMAIL_TO: ${{ secrets.NOTIFY_EMAIL_TO }}
         run: python main.py --once
